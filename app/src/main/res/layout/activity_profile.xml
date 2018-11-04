@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:id="@+id/fotoProfil"
+                android:src="@drawable/fauzi"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/namaKu"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:text="Nama            : Muhamad Fauzi Rachman"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jurusanKu"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:text="Jurusan         : Teknik Informatika"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nimKu"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:text="NIM                : 1157050095"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/universitasKu"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:text="Universitas   : UIN Sunan Gunung Djati Bandung"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tanggalLahirKu"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:text="TTL                : Bandung, 09 Juli 1995"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
